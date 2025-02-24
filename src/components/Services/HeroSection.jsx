@@ -8,10 +8,10 @@ const HeroSection = () => {
         <li>
           <a href="#">Home</a>
         </li>
-        <li className="px-8 text-gray-500">------</li>
+        <li className="border-t-2 border-[#BCBBBA] w-5 mt-[13px] mb-15 mr-7 ml-7"></li>
 
         <li>
-          <a href="#" className="">
+          <a href="#" className=" text-gray-500">
             Services
           </a>
         </li>
