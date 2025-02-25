@@ -1,0 +1,32 @@
+[
+    {
+        "name": "John Doe",
+        "position": "Director of Company",
+        "comment": "Great team, good support and development. Very pleased with the cooperation. I will definitely contact this company again with a new project.",
+        "date": "Feb 25, 2025"
+    },
+    {
+        "name": "Emily Smith",
+        "position": "CEO of Tech Innovations",
+        "comment": "Outstanding service! The team delivered on time and exceeded our expectations. Highly recommend them for any tech project.",
+        "date": "Jan 15, 2025"
+    },
+    {
+        "name": "Michael Brown",
+        "position": "Project Manager at Web Solutions",
+        "comment": "Very professional and responsive. The team was flexible and adapted well to our requirements. Looking forward to future collaborations.",
+        "date": "Dec 10, 2024"
+    },
+    {
+        "name": "Sophia Wilson",
+        "position": "Founder of Creative Minds",
+        "comment": "A truly dedicated and skilled team. The quality of work was impressive, and communication was seamless throughout the project.",
+        "date": "Nov 20, 2024"
+    },
+    {
+        "name": "David Johnson",
+        "position": "CTO of NextGen Solutions",
+        "comment": "Their expertise in development and design is top-notch. We were extremely satisfied with the final product and the overall experience.",
+        "date": "Oct 5, 2024"
+    }
+]
