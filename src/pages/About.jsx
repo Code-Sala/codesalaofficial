@@ -3,6 +3,9 @@ import HeroAbout from "../components/About/HeroAbout";
 import AboutBanner from "../components/About/AboutBanner";
 import AboutNewsletter from "../components/About/AboutNewsletter";
 import AboutFeedback from "../components/About/AboutFeedback";
+import AboutNewslette2 from "../components/About/AboutNewslette2";
+import AboutOurTeam from "../components/About/AboutOurTeam";
+import AboutOurAdvantages from "../components/About/AboutOurAdvantages";
 
 function About() {
   return (
@@ -21,17 +24,13 @@ function About() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-    </div>
     <HeroAbout/>  
     <AboutBanner/>
     <AboutNewsletter/>
     <AboutFeedback/>
-=======
-      <HeroAbout />
-      <AboutBanner />
-      <AboutNewsletter />
->>>>>>> origin
+    <AboutNewslette2/>
+    <AboutOurTeam/>
+    <AboutOurAdvantages/>
     </>
   );
 }
