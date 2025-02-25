@@ -40,8 +40,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="border-t border-gray-700 opacity-65 mb-8" />
-
+        <hr className="border-t-1 border-gray-700 opacity-65 mb-8" />
         {/* Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
@@ -113,7 +112,6 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-
         {/* Footer Bottom Section */}
         <div className="flex flex-wrap justify-between items-center mt-12 text-gray-400 text-sm">
           <div>
