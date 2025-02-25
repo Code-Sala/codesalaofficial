@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import HeroAbout from "../components/About/HeroAbout";
+import AboutBanner from "../components/About/AboutBanner";  
 
 function About() {
   return (
@@ -7,7 +8,7 @@ function About() {
     
     <div className="hero-wrapper">
       <div className="hero bg-gray-200 h-70">
-        <h2 className="pl-40 pt-30 text-3xl">About Us</h2>
+        <h2 className="pl-40 pt-30 text-3xl font-[Nova Flat]">About Us</h2>
         <div className="paragraph flex pl-38 pt-10">
         <ul>
             <li className="pr-20 cursor-pointer">
@@ -20,6 +21,7 @@ function About() {
       </div>
     </div>
     <HeroAbout/>
+    <AboutBanner/>
     </>
   );
 }
