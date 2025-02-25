@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import HeroAbout from "../components/About/HeroAbout";
 import AboutBanner from "../components/About/AboutBanner";  
+import AboutNewsletter from "../components/About/AboutNewsletter";
 
 function About() {
   return (
@@ -20,8 +21,9 @@ function About() {
         </div>
       </div>
     </div>
-    <HeroAbout/>
+    <HeroAbout/>  
     <AboutBanner/>
+    <AboutNewsletter/>
     </>
   );
 }
