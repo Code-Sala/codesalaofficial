@@ -21,17 +21,11 @@ function About() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-    </div>
-    <HeroAbout/>  
-    <AboutBanner/>
-    <AboutNewsletter/>
-    <AboutFeedback/>
-=======
+
       <HeroAbout />
       <AboutBanner />
       <AboutNewsletter />
->>>>>>> origin
+      <AboutFeedback />
     </>
   );
 }
