@@ -31,6 +31,7 @@ function About() {
     <AboutNewslette2/>
     <AboutOurTeam/>
     <AboutOurAdvantages/>
+
     </>
   );
 }
