@@ -3,11 +3,11 @@ import Testimonials from './testimonial/Testimonials'
 function AboutFeedback() {
   return (
     <>
-    <div className="wrappers mt-[137.2px] pl-36 container-lg">
+    <div className="wrappers mt-20 pt-[74px] pl-36">
         <div className="feedback">
             <div className="header flex">
                 <div className="left w-265">
-                    <h1 className="text-red-400  font-bold">HAPPY CLIENT SAY</h1>
+                    <h1 className="text-red-400 font-bold">HAPPY CLIENT SAY</h1>
                     <h3 className="text-4xl pt-4  font-semibold">Feedbacks From Our Customers</h3>
                 </div>
                 <div className="right flex gap-1">
