@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
@@ -13,7 +14,11 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<h1 className="bg-red-700 hover:bg-black">Hello</h1>}
+            element={
+              <h1 className="hover:bg-black text-[primary]  bg-[#341616]">
+                Hello
+              </h1>
+            }
           />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
