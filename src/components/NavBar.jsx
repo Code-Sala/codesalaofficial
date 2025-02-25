@@ -31,21 +31,10 @@ const NavBar = () => {
             <Link className="text-gray-700 hover:text-black" to="/about">
               About
             </Link>
-
+            <Link className="text-gray-700 hover:text-black" to="/services">
+              Services
+            </Link>
             {/* Dropdown for Services */}
-            <div className="relative">
-              <button className="text-gray-700 hover:text-black">
-                Services
-              </button>
-              <div className="dropdown-menu absolute hidden bg-white text-gray-700 shadow-lg rounded mt-2 w-48">
-                <Link className="block px-4 py-2" to="/services">
-                  Service
-                </Link>
-                <Link className="block px-4 py-2" to="/services-detail">
-                  Service Details
-                </Link>
-              </div>
-            </div>
 
             {/* Dropdown for Portfolio */}
             <div className="relative">
