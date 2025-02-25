@@ -5,20 +5,14 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Services from "./pages/Services";
 import Layout from "./pages/Layout";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route
-            index
-            element={
-              <h1 className="hover:bg-black text-[primary] bg-[#341616]">
-                Hello
-              </h1>
-            }
-          />
+          <Route index element={<Home />} />
 
           <Route path="about" element={<About />} />
           <Route path="blog" element={<Blog />} />
