@@ -9,7 +9,6 @@ function App() {
     <Router>
       <div>
         <NavBar />
-
         <Routes>
           <Route
             path="/"
