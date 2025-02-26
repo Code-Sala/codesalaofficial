@@ -2,7 +2,7 @@ import React from "react";
 
 const BodySection1 = () => {
   return (
-    <div className="pt-10 px-4 md:px-10">
+    <div className="pt-10 px-4  md:px-10">
       {/* Heading Section */}
       <div className="text-center mt-20">
         <div className="text-red-500 font-bold text-sm md:text-base">

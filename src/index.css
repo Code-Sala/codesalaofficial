@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+
+@theme {
+  --color-primary: "#fff";
+}
+
+.container-lg {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon-box {
+  background-color: #363636;
+  width: 2.85rem;
+  height: 2.85rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.28rem;
+  border-radius: 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.icon-box:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}
