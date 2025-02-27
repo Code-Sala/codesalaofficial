@@ -8,7 +8,9 @@ const BodySection2 = () => {
   const [isHover4, setIsHover4] = useState(false);
   const [isHover5, setIsHover5] = useState(false);
   return (
-    <div className="bg-[#222222] h-158 mt-30">
+
+    <div className="bg-[#222222]   md:h-158 md:mt-30 w-full">
+
       <div className="HeaderText">
         <div className="text-[#CA5A51] flex justify-center pt-25 text-base font-bold">
           WHAT WE OFFER
@@ -17,7 +19,8 @@ const BodySection2 = () => {
           Our Services for Your Business
         </div>
       </div>
-      <div className="buttonCard1 flex justify-between pt-15">
+      <div className="buttonCard1 md:flex md:justify-between md:pt-15">
+
         <button
           className="text-white bg-[#363636] h-27 w-80 text-xl ml-18  transition-colors duration-500 ease-in-out hover:bg-[#2C2C2C] text-white cursor-pointer"
           onMouseEnter={() => setIsHover(true)}
